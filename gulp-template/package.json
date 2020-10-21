@@ -1,0 +1,35 @@
+{
+  "name": "read-h5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp build && gulp server",
+    "build": "gulp build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "browser-sync": "^2.26.3",
+    "eslint": "^6.1.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-imagemin": "^5.0.3",
+    "gulp-rev": "^9.0.0",
+    "gulp-rev-collector": "^1.3.1",
+    "gulp-stylus": "^2.7.0",
+    "gulp-sync": "^0.1.4",
+    "gulp-uglify": "^3.0.1",
+    "imagemin-jpegtran": "^6.0.0",
+    "imagemin-pngquant": "^7.0.0"
+  },
+  "dependencies": {
+    "gulp-eslint": "^6.0.0",
+    "gulp-htmlmin": "^5.0.1"
+  }
+}

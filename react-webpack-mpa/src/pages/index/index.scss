@@ -1,0 +1,15 @@
+@import "src/common/css/common.scss";
+.column {
+  padding: 0.75rem;
+}
+p {
+  color: #333;
+}
+pre {
+  margin-top: 10px;
+  color: #666;
+}
+.box {
+  border-radius: 5px;
+  transition: 1s all;
+}
